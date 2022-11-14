@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./Components/Header";
+import MainBlock from "./Components/MainBlock";
+import BlueBlock from "./Components/BlueBlock";
+import Journey from "./Components/Journey";
+import FreeHome from "./Components/FreeHome";
+import BlueLineBlock from "./Components/BlueLineBlock";
+import CoverImg from "./Components/CoverImg";
+import BlockZ from "./Components/BlockZ";
+import Drink from "./Components/Drink";
+import Tips from "./Components/Tips";
+import Many from "./Components/Many";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <MainBlock/>
+      <BlueBlock/>
+      <Journey/>
+      <FreeHome/>
+      <BlueLineBlock/>
+      <CoverImg/>
+      <BlockZ/>
+      <Drink/>
+      <Tips/>
+      <Many/>
+      <Footer/>
     </div>
   );
 }

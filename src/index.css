@@ -11,3 +11,879 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+	font-family: "Roboto Regular";
+	src: 
+		url("fonts/roboto-regular.woff") format("woff"),
+		url("fonts/roboto-regular.woff2") format("woff2"); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Red Hat Display";
+	src:  
+		url("fonts/RedHatDisplay-Medium.ttf") format("truetype"), 
+		url("fonts/RedHatDisplay-Medium.woff") format("woff"), 
+		url("fonts/RedHatDisplay-Medium.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    padding-left: 0px;
+    margin: 0px 0px;
+}
+
+html{
+    max-width: 1440px;
+    width: 100%;
+    padding:0px 0px;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0px 0px;
+}
+
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.up__menu{
+    max-height: 60px;
+    height: 100%;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.logo{
+    width: 70px;
+    height: 20px;
+    margin-left: 36px;
+}
+
+.header__list{
+    display: flex;
+    margin-left: 773px;
+    color:#081158;
+}
+
+.header__list__item:not(:first-child){
+    margin-left: 40px;
+    white-space: nowrap;
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color:#081158;
+}
+.header__list__item{
+    padding-top: 19px;
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.header__list__item:visited{
+    color:#081158;
+}
+
+.header__button{
+    width: 173px;
+    height: 46px;
+    margin-left: 20px;
+    background-color: #081158;
+    color: white;
+    border-radius:6px;
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.arrow{
+    height: 16px;
+    width: 12px;
+    left: 20px;
+    top: 15px;
+    border-radius: 0px;
+}
+
+
+
+.cart{
+    margin-left: 25px;
+    width: 17px;
+    height: 17px;
+    margin-top: 22px;
+}
+
+.two__blocks{
+    background-color: #EEF0F4;
+    height: 995px;
+    width: 100%;
+    display: flex;
+}
+
+.sexy__shick{
+    width:659px;
+    height:700px;
+    margin-left: 36px;
+}
+
+.sandra__img{
+    margin-top: 79px;
+    margin-left: 156px;
+}
+
+.right__block__main{
+    margin-top: 164px;
+    margin-left: 80px;
+}
+
+.small__head__txt{
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+    color:#081158;
+    margin-bottom: 32px;
+}
+
+.main__txt__main{
+    font-family: 'Roboto Regular';
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#081158;
+}
+
+.main__description{
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 108px;
+    width: 496px;
+    left: 0.5px;
+    margin-top: 32px;
+    color: #081158;
+}
+
+.main__button{
+    width: 214px;
+    height: 62px;
+    background-color: #081158;
+    color: white;
+    border-radius: 6px;
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.blue__block{
+    background-color: #081158;
+    max-width:1440px;
+    width: 100%;
+    max-height: 230px;
+    height: 100%;
+    color: white;
+}
+
+.blue__block__list{
+    display: flex;
+    text-align: center;
+}
+
+.blue__block__item{
+    margin-left: 187px;
+    padding-top: 93px;
+    padding-bottom: 121px;
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+
+}
+
+.blue__block__item:not(:first-child){
+    margin-left: 354px;
+    padding-top: 93px;
+    padding-bottom: 121px;
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.journ__headtxt{
+    font-family: 'Roboto Regular';
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 81px;
+}
+
+
+.journ__button{
+    width: 214px;
+    height: 62px;
+    background-color: #081158;
+    color: white;
+    border-radius: 6px;
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 613px;
+    margin-top: 26px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 114px;
+    margin-bottom: 143px;
+    margin-left: 57px;
+}
+
+.journ__card{
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-left: 207px;
+    margin-bottom: 107px;
+}
+
+.journ__card:nth-child(1){
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-left: 167px;
+}
+.journ__card:nth-child(3){
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-left: 167px;
+}
+
+.journ__card__img{
+    margin-bottom: 31px;
+}
+
+
+
+.card__headtxt{
+    font-family: 'Roboto Regular';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #081158;
+}
+
+.journ__card__desc{
+    font-family: 'Roboto Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #081158;
+}
+
+.free__home{
+    background-color: #EEF0F4;
+}
+
+.txt__button{
+    margin-left: 36px;
+}
+
+.text__button{
+    margin-left: 36px;
+}
+
+.free__main_txt{
+    font-family: 'Roboto Regular';
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    color: #081158;
+    padding-top:154px;
+    max-height: 198px;
+    max-width: 787px;
+    width: 100%;
+    height: 100%;
+}
+
+.free__desc{
+    height: 72px;
+    width: 590px;
+    font-family: 'Roboto Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#081158;
+    margin-bottom: 25px;
+    margin-top:117px;
+
+}
+
+.free__button{
+    height: 62px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: #081158;
+    color: white;
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.carto4ki{
+    background-color: #EEF0F4;
+    display: flex;
+    text-align: center;
+}
+
+
+.cards__free{
+    margin-left: 24px;
+}
+
+.card__home:hover{
+    transform: scale(1.05);
+    animation-timing-function: 500ms;
+}
+
+.cards__free2{
+    margin-left:269px;
+}
+
+.cards__free:not(:first-child){
+    margin-left: 50px;
+}
+
+.card__home{
+    width: 423px;
+    height: 575px;
+    margin-bottom: 23px;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.card__image{
+    width: 100%;
+    height:400px;
+    
+}
+
+.first__str{
+    display: flex;
+}
+
+.time{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+    color:#081158;
+    
+
+}
+
+.free__img{
+    width: 38px;
+    height: 18px;
+    margin-left: 232px;
+    margin-top: 27px;
+}
+
+.free__img2{
+    margin-left:269px;
+}
+
+.card__desc{
+    height: 28px;
+    width: 336px;
+    font-family: 'Roboto Regular';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 14px;
+    color:#081158;
+}
+
+.card__bottom__txt{
+    margin-top: 14px;
+    margin-bottom: 29px;
+    text-align: left;
+    margin-left: 46px;
+    color: #081158;
+}
+
+
+
+.blue__line__block{
+    background-image: url(./media/IMAGEbackground.png);
+    width: 1440px;
+    height: 1353px;
+    margin-top: 150px;
+}
+
+.txt__block__blue{
+    width: 787px;
+    margin-left: 36px;
+    padding-top: 154px;
+}
+
+.blue__line__headtxt{
+    height: 198px;
+    width: 787px;
+    color: white;
+    font-family: 'Roboto Regular';
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 99px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:31px;
+}
+
+.blue__line__desc{
+    color: white;
+    height: 72px;
+    width: 581px;
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.cards__blue{
+    display:flex;
+}
+
+.price__img{
+    height: 18px;
+    width: 93px;
+    left: 300px;
+    margin-top: 27px;
+    margin-left: 157px;
+}
+
+.price__img2{
+    margin-left:222px;
+}
+
+.price__img3{
+    margin-left:172px;
+}
+
+.cover{
+    background-image: url(./media/IMAGEfon.png);
+    height: 560px;
+    width: 1440px;
+    margin-top:95px;
+}
+
+.cover__img{
+    margin-top:234px;
+    margin-left: 426px;
+}
+
+.blockZ{
+    width: 100%;
+    display:flex;
+    margin-top: 151px;
+}
+
+.right__z__block{
+    max-width: 720px;
+    width: 100%;
+    margin-left: 161px;
+}
+
+.blue__z__block{
+    background-image: url(./media/IMAGEblue_fon.png);
+    width:720px;
+    height: 546px;
+    margin-bottom: 160px;
+    
+}
+
+.up__z__block{
+    position: absolute;
+    width: 507px;
+    height: 500px;
+    z-index: 1;
+    margin-top: 100px;
+    margin-left: 113px;
+    margin-bottom:160px;
+}
+
+.left__z__block{
+    width: 523px;
+    margin-left: 36px;
+}
+
+.Z__headtxt{
+    height: 282px;
+    width: 523px;
+    font-family: 'Roboto Regular';
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#081158;
+}
+
+.Z__desc{
+    height: 108px;
+    width: 500px;
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.z__button{
+    height: 62px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: #081158;
+    color: white;
+    margin-top: 25px;
+}
+
+.drinkman{
+    width: 1440px;
+    height: 764px;
+}
+
+.drink{
+    width: 100%;
+    height: 100%;
+}
+
+.tips__and__button{
+    width: 100%;
+    text-align: center;
+}
+
+.tips__headtxt{
+    height: 71px;
+    width: 648px;
+    font-family: 'Roboto Regular';
+    font-size: 61px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    color:#081158;
+    margin-left: 396px;
+    margin-top: 150px;
+}
+
+.tips__desc{
+    height: 72px;
+    width: 780px;
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #081158;
+    margin-left: 333px;
+    margin-top: 100px;
+    margin-bottom:25px;
+}
+
+.tips__cards{
+    display: flex;
+}
+
+.cards__img{
+    width: 423px;
+    height: 600px;
+    margin-left: 36px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.cards__img:not(:first-child){
+    margin-left: 50px;
+}
+
+.tips__button{
+    height: 62px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: #081158;
+    color: white;
+    font-family: 'Roboto Regular';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.many{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    background-color: #EEF0F4;
+}
+
+.many__items{
+    margin-top:150px;
+    margin-bottom: 150px;
+}
+
+.many__images{
+    margin-left: 0px;
+    position: relative; 
+    
+}
+
+
+
+.many__images:not(:first-child){
+    
+    margin-left:0px;
+}
+
+.many__images:nth-child(1){
+    margin-left: 0px;
+}
+
+.many__images:nth-child(2){
+    margin-left: 0px;
+}
+
+.many__images:nth-child(3){
+    margin-left: 96px;
+}
+.many__images:nth-child(4){
+    margin-left: 96px;
+    
+}
+
+.many__images:nth-child(5){
+    margin-left: 96px;
+}
+
+
+.many__images:nth-child(6){
+    margin-left: 0px;
+}
+
+.many__images:nth-child(7){
+    margin-left: 96px;
+}
+
+.many__images:nth-child(8){
+    margin-left: 96px;
+}
+
+.many__images:nth-child(9){
+    margin-left: 96px;
+}
+
+.pink__line{
+    position: absolute;
+    display: flex;
+    width: 1440px;
+    height: 275px;
+    background-color: #EC8675;
+    z-index: 1;
+    margin-top: 306px;
+}
+
+.name__comp{
+    margin-top: 127px;
+    margin-left: 13px;
+    font-family: 'Red Hat Display';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: white;
+
+}
+
+.social__set{
+    width: 52px;
+    height: 52px;
+    text-align: center; 
+    margin-left: 53px;
+    margin-top:112px;
+    align-items: center;
+}
+
+.social__set:not(:first-child){
+    margin-left: 78px;
+}
+
+.fitnesso__circles{
+    display: flex;
+    margin-left: 185px;
+}
+
+.final__block{
+    background-color: #081158;
+    
+    color: white;
+}
+.tree__block{
+    display: flex;
+}
+
+.logo__left{
+    width: 140px;
+    height: 30px;
+    margin-top: 100px;
+    margin-left: 36px;
+}
+
+.middle__block{
+    margin-left: 332px;
+    margin-top: 100px;
+}
+
+.zagl__finish{
+    margin-bottom: 14px;
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+
+}
+
+.email__finish{
+    font-family: 'Roboto Regular';
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.licency__finish{
+    font-family: 'Red Hat Display';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.licency__item{
+    font-family: "Roboto Regular";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+}
+
+.end__block{
+    margin-left: 185px;
+    margin-top: 100px;
+}
+
+.end__zagl{
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+
+}
+
+.bottom__block{
+    display: flex;
+    margin-top:55px;
+}
+
+.plate{
+    margin-left: 36px;
+    width: 45px;
+    height: 29px;
+    margin-bottom: 100px;
+}
+
+.plate:not(:first-child){
+    margin-left: 65px;
+}
